@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+
+  
+
+}
+.title>p{
+    font-weight: 700;
+     font-size: 64px;
+    line-height: 75px;
+     margin-top: 90px;
+     color: #00365C;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    
+}
+.resume{
+    background-color: #00365C;
+    width: 300px;
+    height: 1123px;
+
+
+}
+.info{
+     width: 494px;
+    height: 1123px;
+    background: #F5F5F5;
+}
+div>.profil{
+    display: flex;
+    justify-content:center ;
+
+}
+.profil{
+    margin-top: 43px;
+    margin-left: 55px;
+    padding-top: 56px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    background-color:#FECB48;
+    border: #FECB48;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+
+}
+.resume-info{
+    margin-top: 36px;
+    margin-right: 24px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px; 
+    position: relative;
+    width: 243px;
+    height: 396px;
+}
+.resume-info-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.resume-info-content{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.main{
+    margin-left: 32px;
+    height: 160px;
+}
+.info-title{
+    margin-top: 43px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #00365C;
+    
+}
+.info-subtitle{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+     color: #000000;
+    
+}
+.info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 32px;
+    margin-bottom: 8px;
+    gap: 12px;
+}
+.info-content-title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #00365C;
+    margin-bottom: 12px;
+}
+.info-content-c{
+    width: 399px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}
+
